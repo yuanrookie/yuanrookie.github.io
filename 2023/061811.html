@@ -376,7 +376,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    1k
                 </div>
                 
 
@@ -442,27 +442,11 @@
     background-color: pink;
     ;
   &#125;
-
-    <div class='triangle'>
-
-    <div class="d1">One</div>
-
-  </div>
 </code></pre>
 <ol start="2">
 <li>实现圣杯布局（面从上到下，分成三部分：头部（header），躯干（body），尾部（footer）。其中躯干又水平分成三栏：从左到右为：导航、主栏、副栏）</li>
 </ol>
-<pre class=" language-javaScript"><code class="language-javaScript">  <div class='grail'>
-    <div class="header">header</div>
-    <div class="section">
-      <div class="leftAside">左边</div>
-      <div>中间</div>
-      <div class="rightAside">有边</div>
-    </div>
-    <div class="footer">footer</div>
-  </div>
-
-   .grail &#123;
+<pre class=" language-javaScript"><code class="language-javaScript">   .grail &#123;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -498,13 +482,7 @@
   &#125;
 </code></pre>
 <p>   效果展示：<br>  <img src="https://s2.loli.net/2023/06/21/AhzS6YfE7v2cFGL.png" alt="圣杯布局"><br>3. 双飞翼布局，就是两端固定宽高，中间自适应的三栏布局。</p>
-<pre class=" language-javaScript"><code class="language-javaScript">  <div class='grail'>
-    <div class="leftAside">左边</div>
-    <div class="main">中间</div>
-    <div class="rightAside">有边</div>
-  </div>
-
-    .grail &#123;
+<pre class=" language-javaScript"><code class="language-javaScript">    .grail &#123;
     display: flex;
     align-items: center;
     text-align: center;
@@ -544,12 +522,6 @@
   .footer &#123;
     background-color: red;
   &#125;
-   <div class='grail'>
-    <div class="header">左边</div>
-    <div class="main">中间
-    </div>
-    <div class="footer">有边</div>
-  </div>
 </code></pre>
 <p>效果展示：<br><img src="https://s2.loli.net/2023/06/21/Qpes3LE6H1RxCay.png" alt="底部固定"></p>
 <h2 id="三、各类布局优缺点"><a href="#三、各类布局优缺点" class="headerlink" title="三、各类布局优缺点"></a>三、各类布局优缺点</h2><p>例如：如何实现 高度已知，两端宽度固定，中间自适应？</p>
