@@ -6,7 +6,7 @@
   <link href="https://www.ymcsir.com.cn/atom.xml" rel="self"/>
   
   <link href="https://www.ymcsir.com.cn/"/>
-  <updated>2023-06-21T02:03:23.943Z</updated>
+  <updated>2023-06-22T04:32:13.199Z</updated>
   <id>https://www.ymcsir.com.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建教程</title>
+    <link href="https://www.ymcsir.com.cn/2023/062212.html"/>
+    <id>https://www.ymcsir.com.cn/2023/062212.html</id>
+    <published>2023-06-22T04:30:21.498Z</published>
+    <updated>2023-06-22T04:32:13.199Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;博客搭建教程（hexo-matery-github）&quot;&gt;&lt;a href=&quot;#博客搭建教程（hexo-matery-github）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://www.ymcsir.com.cn/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
