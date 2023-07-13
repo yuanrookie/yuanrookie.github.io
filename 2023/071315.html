@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客搭建教程, 念溪尘">
+    <meta name="keywords" content="java学习之路--基础知识（二）, 念溪尘">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>博客搭建教程 | 念溪尘</title>
+    <title>java学习之路--基础知识（二） | 念溪尘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">博客搭建教程</h1>
+                    <h1 class="description center-align post-title">java学习之路--基础知识（二）</h1>
                 </div>
             </div>
         </div>
@@ -326,10 +326,104 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -354,8 +448,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
-                                工具
+                            <a href="/categories/Java-%E7%AC%94%E8%AE%B0/" class="post-category">
+                                Java 笔记
                             </a>
                         
                     </div>
@@ -367,7 +461,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-06-22
+                    2023-07-13
                 </div>
                 
 
@@ -376,7 +470,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    690
+                    1.2k
                 </div>
                 
 
@@ -398,39 +492,159 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="博客搭建教程（hexo-matery-github）"><a href="#博客搭建教程（hexo-matery-github）" class="headerlink" title="博客搭建教程（hexo+matery+github）"></a>博客搭建教程（hexo+matery+github）</h1><h2 id="一、参考博客链接"><a href="#一、参考博客链接" class="headerlink" title="一、参考博客链接"></a>一、参考博客链接</h2><ol>
-<li>第一步我们首要先配好电脑的node.js环境<blockquote>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/antma/article/details/86104068">node.js 安装详细步骤教程_node.js安装教程_程序员老油条的博客-CSDN博客</a></p>
-</blockquote>
-</li>
-<li>第二步，安装好node环境之后，开始安装hexo<blockquote>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105715224">hexo安装教程</a></p>
-</blockquote>
-</li>
+                <h1 id="java中字符串基础知识（二）"><a href="#java中字符串基础知识（二）" class="headerlink" title="java中字符串基础知识（二）"></a>java中字符串基础知识（二）</h1><ol>
+<li>String 注意点<br> 字符串的内容是不会发生改变的，它的对象在创建后不能被更改。</li>
+<li>创建字符串对象</li>
 </ol>
 <ul>
-<li>上面这个教程中要注意的点 （1）在github上面的创建的仓库名必须是   《 用户名.github.io 》形式;（2）配置_config.xml时候，其中要写入我们的github仓库的地址，注意 在这里要把github上面的token密钥 加入到git仓库地址当中，形式如下<br><img src="https://s2.loli.net/2023/06/21/Tw7efY46Up1gEyq.png" alt="exam1.png"><br>（3）在跟着教程安装hexo的时候，可能会遇到以下这种情况<br><img src="https://s2.loli.net/2023/06/21/dA5KqEUybpk8rST.png" alt="em2.png"><br>这是因为themes文件下的主题文件名和配置中的theme名字不同导致的，仅需修改themes文件的名字跟config中配置的theme主题一样。<br><img src="https://s2.loli.net/2023/06/21/Lhq1Kr54WywCZNM.png" alt="em3.png"></li>
+<li>直接复制</li>
+<li>new</li>
 </ul>
-<ol start="3">
-<li>使用github国内最常见的就是github访问过慢问题，此时推荐一个参考链接，亲测有一定效果<blockquote>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41176055/article/details/128496628">缓解国内github访问过慢问题</a></p>
-</blockquote>
-</li>
-<li>最后一步就是根据教程，进行matery主题深度优化配置<blockquote>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/104336960">基于matery主题深度优化配置</a></p>
-</blockquote>
-</li>
-</ol>
-<h2 id="二、实践过程中遇到的问题及解决方法"><a href="#二、实践过程中遇到的问题及解决方法" class="headerlink" title="二、实践过程中遇到的问题及解决方法"></a>二、实践过程中遇到的问题及解决方法</h2><ol>
-<li>由于期间电脑进行了重置，没有保存电脑中的博客源文件，又重新构建了一个博客，所以第一件事，先将构建好的博客源码 保存起来，我这是里在github上面 又新建了一个hexo分支，然后在本地上新建一个空文件夹，从仓库中拉取下来，并切换到hexo分支，删掉拉取下来的所有内容，只保存.git文件，然后将hexo文件中的源码及配置文件 复制过来，上传到github当中</li>
-<li>重置电脑之后，期间遇到一个安装某些包时，询问是否要捐款的报错，如下图<br><img src="https://s2.loli.net/2023/06/21/wqj84GvmJ6ZUzcP.png" alt="em4.png"><br>解决方法：在控制台中或者git bash 中输入以下代码</li>
-</ol>
-<pre class=" language-javaScript"><code class="language-javaScript">npm config set fund false --global
+<pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">//空参构造：获取一个空白的字符串对象</span>
+ String s1<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+ <span class="token comment" spellcheck="true">//传递一个字符串，根据字符串传递的内容再创建一个新的字符串对象</span>
+ String s2<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"abc"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ <span class="token comment" spellcheck="true">//传递一个字符数组，根据字符数组的内容再创建一个新的字符串对象</span>
+ <span class="token comment" spellcheck="true">//需求：修改字符串的内容 abc->Qbc</span>
+<span class="token comment" spellcheck="true">//abc==>&amp;#123;'a','b','c'&amp;#125;</span>
+<span class="token keyword">char</span><span class="token punctuation">[</span><span class="token punctuation">]</span> chs<span class="token operator">=</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token string">'a'</span><span class="token punctuation">,</span><span class="token string">'b'</span><span class="token punctuation">,</span><span class="token string">'c'</span><span class="token punctuation">,</span><span class="token string">'d'</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">;</span>
+String s3<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span>chs<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">//传递一个字节数组，根据字节的数组的内容在创建一个新的字符串对象</span>
+<span class="token comment" spellcheck="true">//应用场景：在网络中传输的数据其实都是字节信息</span>
+<span class="token comment" spellcheck="true">//我们一般要把字节信息进行转换，转成字符串，此实际需要用到这个构造了</span>
+<span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span> bytes<span class="token operator">=</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token number">97</span><span class="token punctuation">,</span><span class="token number">98</span><span class="token punctuation">,</span><span class="token number">99</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">;</span>
+String s4<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span>bytes<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <ol start="3">
-<li>给博客增加一个评论功能，可以参考下列文章<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/vpqtxzmzezeqjj9977/article/details/123010779">hexo添加评论功能</a></li>
-<li>在保存hexo源码的时候，遇到一个问题，由于把hexo源码的配置文件也提交到github当中，github检测到存在token，导致上一个token失效，从而新申请了一个token，在hexo的config.yml中的仓库地址切换最新的token，一直报如下这个错误。<br><img src="https://s2.loli.net/2023/06/22/E6d8WwiUoOGpnXP.png" alt="em6.png"><br>解决方法： 去掉config.yml中仓库地址的token,然后直接重新 hexo clean,hexo g , hexo d ，然后从会弹出一个弹窗，选择用code验证登录 ，下次继续（hexo cl,hexo g ,hexo d）时，可以直接登录。</li>
+<li>字符串比较</li>
 </ol>
+<ul>
+<li>基本数据类型比较：比较的是数据值</li>
+<li>引用数据类型比较：比的是地址值</li>
+<li>equals 比较字符串内容是否相等</li>
+</ul>
+<pre class=" language-java"><code class="language-java">String s1<span class="token operator">=</span><span class="token string">"123"</span><span class="token punctuation">;</span>
+String s2<span class="token operator">=</span><span class="token string">"abc"</span><span class="token punctuation">;</span>
+<span class="token keyword">boolean</span> result1<span class="token operator">=</span>s1<span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>s2<span class="token punctuation">)</span>
+</code></pre>
+<ul>
+<li>equalsIgnoreCase 比较字符串的内容是否相等，忽略大小写</li>
+</ul>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">boolean</span> result2<span class="token operator">=</span>s1<span class="token punctuation">.</span><span class="token function">equalsIgnoreCase</span><span class="token punctuation">(</span>s2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="4">
+<li>遍历字符串</li>
+</ol>
+<ul>
+<li>public char charAt(int index)： 根据索引返回字符</li>
+<li>public int  length():返回字符串的长度</li>
+<li>注意：数组名.length    字符串对象.length()</li>
+</ul>
+<ol start="5">
+<li>统计字符个数</li>
+</ol>
+<pre class=" language-java"><code class="language-java">    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//键盘输入一个字符串</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入一个包含大小写字母及数字的字符串"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        Scanner r<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        String str<span class="token operator">=</span>r<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> bigCount<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//大写字母数</span>
+        <span class="token keyword">int</span> smallCount<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//小写字母数</span>
+        <span class="token keyword">int</span> numCount<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//数字字符数</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span> str<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            <span class="token keyword">int</span> temp<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>temp<span class="token operator">>=</span><span class="token number">65</span><span class="token operator">&amp;&amp;</span>temp<span class="token operator">&lt;=</span><span class="token number">90</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+                bigCount<span class="token operator">++</span><span class="token punctuation">;</span>
+            <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>temp<span class="token operator">>=</span><span class="token number">97</span> <span class="token operator">&amp;&amp;</span> temp<span class="token operator">&lt;=</span><span class="token number">122</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+                smallCount<span class="token operator">++</span><span class="token punctuation">;</span>
+            <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token keyword">else</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+                numCount<span class="token operator">++</span><span class="token punctuation">;</span>
+            <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"大写字母数："</span><span class="token operator">+</span>bigCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"小写字母数："</span><span class="token operator">+</span>smallCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"数字字母数："</span><span class="token operator">+</span>numCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="6">
+<li>字符串拼接和反转</li>
+</ol>
+<pre class=" language-java"><code class="language-java">    <span class="token keyword">public</span> <span class="token keyword">static</span> String <span class="token function">reverser</span> <span class="token punctuation">(</span>String str<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        String result<span class="token operator">=</span><span class="token string">""</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">>=</span><span class="token number">0</span> <span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            <span class="token keyword">char</span> c<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            result<span class="token operator">+=</span>c<span class="token punctuation">;</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="7">
+<li>字符串截取</li>
+</ol>
+<ul>
+<li>String substring(int beginIndex,int endIndex) 注意：左闭右开</li>
+</ul>
+<pre class=" language-java"><code class="language-java">     String phone<span class="token operator">=</span><span class="token string">"13245698712"</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//截取手机号前三位</span>
+        String start<span class="token operator">=</span> phone<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//截取手机号后四位</span>
+        String end<span class="token operator">=</span>phone<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//拼接</span>
+        String result<span class="token operator">=</span>start <span class="token operator">+</span><span class="token string">"****"</span><span class="token operator">+</span>end<span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="8">
+<li>StringBuilder<br>他可以看成一个可变的容器，里面的内容是可以变化的，不像字符串一样不可变，可以提高字符串的操作效率，可以将容器里面的内容反转。</li>
+</ol>
+<ul>
+<li>public StringBuilder append() &#x2F;&#x2F;添加元素</li>
+<li>publick StringBuilder reverse()  &#x2F;&#x2F;反转容器中的内容</li>
+<li>public int length() &#x2F;&#x2F;返回长度</li>
+<li>public String toString()  &#x2F;&#x2F;将StringBuilder 转换成字符串。</li>
+</ul>
+<pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">//传统字符串操作</span>
+String s1<span class="token operator">=</span>s2<span class="token operator">+</span>s3<span class="token operator">+</span>s4<span class="token operator">+</span>s5<span class="token punctuation">;</span><span class="token comment" spellcheck="true">//在这个字符串拼接的过程中会产生很多新的字符串。</span>
+       <span class="token comment" spellcheck="true">//创建对象</span>
+        StringBuilder sb<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">StringBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//添加字符串</span>
+        sb<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"aaa"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"bbbb"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"2sad"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//将StringBuilder 转换成String</span>
+        sb<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="9">
+<li>判断是否是对称字符串</li>
+</ol>
+<pre class=" language-java"><code class="language-java">     <span class="token comment" spellcheck="true">//键盘输入一个字符串</span>
+        Scanner r<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入一个字符串"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        String str<span class="token operator">=</span>r<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//创建对象</span>
+        String result<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">StringBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>str<span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"当前字符串是对称字符串"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token keyword">else</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"当前字符串不是对称字符串"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="10">
+<li>StringJoiner<br>它也可以看成一个容器，容器内容是可以变化的；可以提高字符串的操作效率，而且代码编写特备简介，JDK8之后才出现的</li>
+</ol>
+<ul>
+<li>格式<br>  StringJoiner sb&#x3D;new StringJoiner(“间隔符号”，”开始符号”，”结束符号”)</li>
+<li>add(添加的内容) &#x2F;&#x2F;添加数据，并返回对象本身</li>
+<li>length() &#x2F;&#x2F;返回长度</li>
+<li>toString()  &#x2F;&#x2F;转换成字符串</li>
+</ul>
+<ol start="11">
+<li>字符串原理</li>
+</ol>
+<ul>
+<li>字符串存储内存原理<br>直接赋值的会复用字符串常量池中的；new出来的不会复用，会开辟一个新的内存空间。</li>
+<li>&#x3D;&#x3D; 比较的是什么？<br> 基本类型比较的是值，引用数据类型比较的是地址。</li>
+<li>字符串拼接原理<br> 如果没有变量参与，都是字符串直接相加，编译之后就是拼接之后的结果，会复用串池中的字符串<br> 如果有变量参与，会创建新的字符串，浪费内存。</li>
+<li>StringBuilder 提高效率原理图<br>  所有要拼接的内容都会往StringBulder中放，不会创建很多无用的空间，节约内存。</li>
+</ul>
 
                 
             </div>
@@ -457,7 +671,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.ymcsir.com.cn/2023/062212.html">https://www.ymcsir.com.cn/2023/062212.html</a>
+                    <a href="https://www.ymcsir.com.cn/2023/071315.html">https://www.ymcsir.com.cn/2023/071315.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -937,13 +1151,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/071314.html">
+                <a href="/2023/071315.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="java学习之路--java常用API">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="java学习之路--基础知识（三）">
                         
-                        <span class="card-title">java学习之路--java常用API</span>
+                        <span class="card-title">java学习之路--基础知识（三）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -990,32 +1204,48 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/062116107.html">
+                <a href="/2023/071314.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="java学习之路--java常用API">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">java学习之路--java常用API</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            java学习之路的笔记总结
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-06-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-13
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Yuansir
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Java-%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    Java 笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/blog/">
+                        <span class="chip bg-color">blog</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1045,6 +1275,100 @@
 
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 

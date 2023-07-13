@@ -6,7 +6,7 @@
   <link href="https://www.ymcsir.com.cn/atom.xml" rel="self"/>
   
   <link href="https://www.ymcsir.com.cn/"/>
-  <updated>2023-06-22T04:32:13.199Z</updated>
+  <updated>2023-07-13T15:22:09.259Z</updated>
   <id>https://www.ymcsir.com.cn/</id>
   
   <author>
@@ -15,6 +15,169 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java环境工具安装和基本知识了解</title>
+    <link href="https://www.ymcsir.com.cn/2023/071313.html"/>
+    <id>https://www.ymcsir.com.cn/2023/071313.html</id>
+    <published>2023-07-13T15:16:53.023Z</published>
+    <updated>2023-07-13T15:22:09.259Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java环境工具安装和基本知识了解&quot;&gt;&lt;a href=&quot;#java环境工具安装和基本知识了解&quot; class=&quot;headerlink&quot; title=&quot;java环境工具安装和基本知识了解&quot;&gt;&lt;/a&gt;java环境工具安装和基本知识了解&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://www.ymcsir.com.cn/categories/Java/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java学习之路--基础知识（一）</title>
+    <link href="https://www.ymcsir.com.cn/2023/071314.html"/>
+    <id>https://www.ymcsir.com.cn/2023/071314.html</id>
+    <published>2023-07-13T15:16:53.022Z</published>
+    <updated>2023-07-13T15:29:58.289Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java基础知识（一）&quot;&gt;&lt;a href=&quot;#java基础知识（一）&quot; class=&quot;headerlink&quot; title=&quot;java基础知识（一）&quot;&gt;&lt;/a&gt;java基础知识（一）&lt;/h1&gt;&lt;h2 id=&quot;一、运算符&quot;&gt;&lt;a href=&quot;#一、运算符&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java 笔记" scheme="https://www.ymcsir.com.cn/categories/Java-%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java学习之路--基础知识（四）</title>
+    <link href="https://www.ymcsir.com.cn/2023/071315.html"/>
+    <id>https://www.ymcsir.com.cn/2023/071315.html</id>
+    <published>2023-07-13T15:16:53.020Z</published>
+    <updated>2023-07-13T15:25:00.377Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java基础知识（四）&quot;&gt;&lt;a href=&quot;#java基础知识（四）&quot; class=&quot;headerlink&quot; title=&quot;java基础知识（四）&quot;&gt;&lt;/a&gt;java基础知识（四）&lt;/h1&gt;&lt;h2 id=&quot;一、面向对象进阶&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java 笔记" scheme="https://www.ymcsir.com.cn/categories/Java-%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java学习之路--基础知识（三）</title>
+    <link href="https://www.ymcsir.com.cn/2023/071315.html"/>
+    <id>https://www.ymcsir.com.cn/2023/071315.html</id>
+    <published>2023-07-13T15:16:53.018Z</published>
+    <updated>2023-07-13T15:23:44.491Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java基础知识（三）&quot;&gt;&lt;a href=&quot;#java基础知识（三）&quot; class=&quot;headerlink&quot; title=&quot;java基础知识（三）&quot;&gt;&lt;/a&gt;java基础知识（三）&lt;/h1&gt;&lt;h2 id=&quot;一、集合（ArrayList）&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java 笔记" scheme="https://www.ymcsir.com.cn/categories/Java-%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java学习之路--基础知识（二）</title>
+    <link href="https://www.ymcsir.com.cn/2023/071315.html"/>
+    <id>https://www.ymcsir.com.cn/2023/071315.html</id>
+    <published>2023-07-13T15:16:53.016Z</published>
+    <updated>2023-07-13T15:23:11.346Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java中字符串基础知识（二）&quot;&gt;&lt;a href=&quot;#java中字符串基础知识（二）&quot; class=&quot;headerlink&quot; title=&quot;java中字符串基础知识（二）&quot;&gt;&lt;/a&gt;java中字符串基础知识（二）&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;String</summary>
+        
+      
+    
+    
+    
+    <category term="Java 笔记" scheme="https://www.ymcsir.com.cn/categories/Java-%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java学习之路--java常用API</title>
+    <link href="https://www.ymcsir.com.cn/2023/071314.html"/>
+    <id>https://www.ymcsir.com.cn/2023/071314.html</id>
+    <published>2023-07-13T15:16:53.014Z</published>
+    <updated>2023-07-13T15:25:03.845Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java中常用的API方法&quot;&gt;&lt;a href=&quot;#java中常用的API方法&quot; class=&quot;headerlink&quot; title=&quot;java中常用的API方法&quot;&gt;&lt;/a&gt;java中常用的API方法&lt;/h1&gt;&lt;h2 id=&quot;一、Math&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java 笔记" scheme="https://www.ymcsir.com.cn/categories/Java-%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="blog" scheme="https://www.ymcsir.com.cn/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://www.ymcsir.com.cn/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>博客搭建教程</title>
