@@ -94,6 +94,41 @@ byte、short、char 在参与运算时，都会先直接提升为int ，然后�
  //格式:数据类型[][] 数组名=new 数据类型[][] {{元素1，元素2},{元素1，元素2}};
 // 简化格式:数据类型[][] 数组名={{元素1，元素2},{元素1，元素2}};
 ```
+4. Arrays
+```java
+    //toSting() 将数组编变成字符串
+    int [] arr={1,2,3,4,5,6,7};
+    System.out.println(Arrays.toString(arr))//[1,2,3,4,5,6,7]
+    //二分查找法查找元素（前提：数组必须是有序的，且按照升序）
+    //如果要查找元素存在，则返回真实索引，否则会返回-1；
+        System.out.println(Arrays.binarySearch(arr,2))//1
+
+    //copyOf()拷贝数组
+    int[] newArr1=Arrays.copyOf(arr,10);
+    System.out.println(Arrays.toString(newArr1));//[1, 2, 3, 4, 5, 6, 7, 0, 0, 0]
+
+    // copyOfRange()拷贝数组指定范围
+    int[] newArr2=Arrays.copyOfRange(arr,1,10);
+    System.out.println(Arrays.toString(newArr2));//[2, 3, 4, 5, 6, 7, 0, 0, 0]
+    //fill()填充数组
+    Arrays.fill(arr,50);
+    System.out.println(Arrays.toString(arr));//[50, 50, 50, 50, 50, 50, 50]
+    //sort 排序 。默认给基本数据类型升序排列 ，底层是使用快速排序
+        int[] arr2={1,5,2,3,9,8,4,19};
+        Arrays.sort(arr2);
+        System.out.println(Arrays.toString(arr2));//[1, 2, 3, 4, 5, 8, 9, 19]
+    //sort 降序写法
+        Arrays.sort(arr2,(Integer o1,Integer o2)->{return o2-o1})
+    //sort降序原理
+        Integer[] arr3={1,5,2,3,9,8,4,19};
+        Arrays.sort(arr3,new Comparator<Integer> (){
+            @Override
+            public int compare (Integer o1,Integer o2){
+                return o2-o1;
+            }
+        });
+        System.out.println(Arrays.toString(arr3));//[19, 9, 8, 5, 4, 3, 2, 1]
+```
 ## 四、方法
 1. 方法概念及用途
 - 方法是程序中最小的执行单元;将重复的代码、具有独立功能的代码可以抽取到方法中;方法可以提高代码的复用性和可维护性。
